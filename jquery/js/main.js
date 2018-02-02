@@ -1,5 +1,6 @@
 var $form_wrap = $('.form_wrap'),
-$close = $('.close');
+$close = $('.close')
+;
 
 setTimeout(function() {
     $form_wrap.toggleClass("active");
@@ -8,3 +9,6 @@ setTimeout(function() {
 $close.click(function(){
     $form_wrap.hide();
 });
+
+
+

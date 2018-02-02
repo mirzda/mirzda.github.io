@@ -13,16 +13,16 @@
 <body>
     <div class="container">
         <div class="form_wrap">
-            <div class="form">
+            <form action="mail.php" method="POST" class="form">
                 <button class="close fa fa-times-circle"></button>
                 <h2>Оставь заявку и получи автомобиль</h2>
                 <div class="input-wrap fa fa-user">
-                    <input class="form-input" type="text" name="username" placeholder="имя">
+                    <input class="form-input" type="text" name="user_name" placeholder="имя">
                 </div>
                 <div class="input-wrap fa fa-unlock">
                     <input class="form-input" type="text" name="password" placeholder="пароль"> </div>
-                <button class="form-btn">Отправить заявку</button>
-            </div>
+                <button class="form-btn" type="submit">Отправить заявку</button>
+            </form>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
