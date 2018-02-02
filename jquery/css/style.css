@@ -73,7 +73,7 @@ a:hover {
     padding-left: 40px;
 }
 
-.input-wrap:before {
+.fa-user:before {
     position: absolute;
     content: "\f007";
     font-size: 30px;
@@ -82,8 +82,13 @@ a:hover {
     z-index: 1;
 }
 
-.input-wrap:nth-child(2):before {
+.fa-unlock:before {
+    position: absolute;
     content: "\f023";
+    font-size: 30px;
+    padding: 10px;
+    color: #182134;
+    z-index: 1;
 }
 
 .input-wrap:hover:before {
