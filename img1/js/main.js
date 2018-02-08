@@ -21,7 +21,7 @@ $input.on('keydown keypress keyup',function (e) {
 var $img = $('img');
  $img.one('click', function (){
     var src = $img.attr('src');
-    var path = src.slice(0,-4);
+    var path = src.slice(0,src.lastIndexOf("."));
     var exp = src.slice(src.lastIndexOf("."));
     var $res = path + "-lg" + exp;
     return $img.attr("src", $res);
