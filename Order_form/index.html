@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://use.fontawesome.com/ea48d14ae1.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Goods card</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row content justify-content-between align-items-baseline">
+            <div class="col-3 content_part">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="img/book1.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Сумка Veruci
+                        </h4>
+                        <p>Бренд Braska (Браска)</p>
+                        <div class="rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price">
+                            <span class="price_sum ">
+                                <span class="price-old">139,00грн.</span>
+                                <span class="price-new">69,50грн.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <button class="btn btn-danger js-button-campaign">Добавить в корзину</button>
+                </div>
+            </div>
+            <div class="col-3 content_part">
+                <div class="card">
+                    <img class="card-img-top" src="img/book2.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Сумка Gucci
+                        </h4>
+                        <p>Бренд Kolaska (Коласка)</p>
+                        <div class="rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="price">
+                            <span class="price_sum ">
+                                <span class="price-old">139,00грн.</span>
+                                <span class="price-new">69,50грн.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <button class="btn btn-danger js-button-campaign">Добавить в корзину</button>
+                </div>
+            </div>
+            <div class="col-3 content_part">
+                <div class="card">
+                    <img class="card-img-top" src="img/book3.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">Сумка Parfois
+                        </h4>
+                        <p>Бренд Alaska (Аласка)</p>
+                        <div class="rating">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+
+                        <div class="price">
+                            <span class="price_sum ">
+                                <span class="price-old">139,00грн.</span>
+                                <span class="price-new">69,50грн.</span>
+                            </span>
+
+                        </div>
+
+                    </div>
+                    <button class="btn btn-danger js-button-campaign">Добавить в корзину</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay js-overlay-campaign">
+
+        <div class="popup js-popup-campaign">
+            <h2>Форма заказа</h2>
+
+            <div class="popup_content">
+                <div class="card">
+
+                </div>
+
+                <form class="form">
+                    <div class="form-group">
+                        <input type="name" class="form-control" name="name" aria-describedby="nameHelp" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Введите Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="phone" name="phone"
+                        class="form-control" placeholder="Введите телефон">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Введите сообщение" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="hidden" class="form-control" placeholder="Enter phone">
+                    </div>
+                    <a type="submit" class="btn send btn-danger">Оформить заказ</a>
+
+                </form>
+            </div>
+            <div class="close-popup js-close-campaign"></div>
+        </div>
+    </div>
+    <footer>
+		<div class="overlay js-overlay-thank-you">
+			<div class="popup js-thank-you">
+				<h2>Спасибо за заявку</h2>
+				<div class="close-popup js-close-thank-you"></div>
+			</div>
+		</div>
+	</footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

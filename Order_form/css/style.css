@@ -1,0 +1,138 @@
+
+
+.content {
+    margin: 100px auto;
+}
+
+.content_part {
+    text-align: center;
+}
+.js-button-campaign{
+    width: 100%;
+}
+
+.card-img-top {
+    padding: 10px 0;
+    
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.price_sum {
+    cursor: initial;
+    
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.rating>span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+}
+.price-old {
+    color: #ffb644;
+    font-size: 14px;
+    text-decoration: line-through;
+
+}
+
+
+
+.content_part .card {
+    border: none;
+}
+
+.popup_content .card {
+    width: 40%;
+    text-align: center;
+    color: #000;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    text-align: center;
+    min-width: 800px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #dfbdbd;
+    color: #fff;
+}
+
+.popup_content {
+    display: flex;
+    justify-content: space-around;
+}
+.popup_content form{
+    width: 45%;
+}
+
+.send {
+    width: 100%;
+}
+
+.close-popup {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+.fa-star{
+    color: gold;
+}
+
+.close-popup:before {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    left: -4px;
+    transform: rotate(-45deg);
+}
+
+.close-popup:after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    transform: rotate(45deg);
+    left: -4px;
+}
+
+@media screen and (max-width: 768px) {
+    .popup {
+        width: 100%;
+        height: 100vh;
+        font-size: 15px;
+    }
+}
