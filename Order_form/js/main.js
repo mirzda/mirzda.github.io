@@ -31,7 +31,7 @@ $(document).ready(function() {
 		}
 		$.ajax({
 			type: "POST",
-			url: "mail.php",
+			url: "../mail.php",
 			data: $(this).serialize()
 		}).done(function() {
 			$('.js-overlay-thank-you').fadeIn();
