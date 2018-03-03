@@ -1,0 +1,147 @@
+@import "base/_reset";
+@import "base/_fonts";
+//@import "components/_jquery.formstyler";
+//@import "components/_fancybox";
+//@import "components/_slick";
+//@import "components/_mCustomScrollbar";
+@import "layout/_header";
+@import "layout/_footer";
+@import "layout/_content";
+@import "layout/_media";
+
+li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+}
+$ff: #cb944c;
+
+
+
+header>.wrapper {
+   padding: 0;
+}
+.header_part_1{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.header_part_2{
+    @extend .header_part_1 ;
+    font-weight: 700;
+    padding: 10px 0;
+    border: 1px solid #dddfdf;
+    border-right: none;
+    border-left: none;
+}
+
+.logo{
+    position: relative;
+    &:after{
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+        content: "Интернет-магазин «Благой арт»";
+        color: #747688;
+    }
+}
+.search {
+    position: relative;
+}
+
+.search_input {
+    width: 490px;
+    padding: 10px 15px;
+    margin: 0 0px 0 40px;
+    border-radius: 5px;
+    border: 1px solid #b9b8bd;
+}
+
+.fa-search{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $ff;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.phone{
+    font-size: 23px;
+    color: #181616;
+    margin-left: 70px;
+}
+.schedule{
+    margin-left: 7px;
+    font-size: 14px;
+    
+    p:nth-child(1){
+        color: $ff;
+        padding: 0;
+     }
+    p:last-child{
+        color: #2b3056;
+        padding: 0;
+    } 
+} 
+
+.menu{
+    display: flex;
+    position: relative;
+   
+    a{
+        font-size: 16px;
+        color: #171717;
+        text-transform: uppercase;
+        padding: 10px 7px;
+    }
+    .nav_item{
+        padding-left: 0;
+        .fa{
+            color: $ff;
+        }
+    }
+    
+}
+
+.shop_card{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #747688;
+    li:first-child{
+        display: flex;
+        align-items: center;
+        img{
+            display: block;
+            margin: 0 7px ;
+        }
+        
+    }
+    
+    .fa-shopping-cart{
+        color:$ff;
+    }
+    li:last-child{
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        
+        a{
+            text-transform: uppercase;
+            color: #747688;
+            margin-left: 5px;
+        }
+    }
+    
+}
+
+.banner{
+    margin-top: 90px;
+}
+
